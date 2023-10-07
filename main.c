@@ -25,6 +25,7 @@ CP_Vector velocity = { 0,0 };
 CP_Color palette[50];
 float speed;
 
+
 int keyPressed;
 
 // use CP_Engine_SetNextGameState to specify this function as the initialization function
