@@ -197,10 +197,12 @@ xcopy "$(ProjectDir)Assets\*" "$(OutDir)Assets\" /s /r /y /q</Command>
     <ClCompile Include="button.c" />
     <ClCompile Include="palettes.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="sprite_renderer_voids.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="button.h" />
     <ClInclude Include="palettes.h" />
+    <ClInclude Include="sprite_renderer_voids.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

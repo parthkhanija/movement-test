@@ -63,8 +63,8 @@ void load_blues_palette(CP_Color* array) {
 
 void load_purple_palette(CP_Color* array) {
 	array[0] = CP_Color_Create(150, 161, 200, 255);
-	array[0] = CP_Color_Create(130, 89, 183, 255);
-	array[0] = CP_Color_Create(71, 53, 135, 255);
-	array[0] = CP_Color_Create(32, 30, 80, 255);
-	array[0] = CP_Color_Create(102, 0, 0, 255);
+	array[1] = CP_Color_Create(130, 89, 183, 255);
+	array[2] = CP_Color_Create(71, 53, 135, 255);
+	array[3] = CP_Color_Create(32, 30, 80, 255);
+	array[4] = CP_Color_Create(102, 0, 0, 255);
 }
